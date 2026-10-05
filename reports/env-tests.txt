@@ -1,0 +1,5 @@
+
+> mad-developers@0.1.0 test:env
+> node --conditions=react-server --import tsx tests/env.ts
+
+PASS: explicit empty preview accepted; partial, weak-secret and required-backend configurations fail closed

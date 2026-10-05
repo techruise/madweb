@@ -1,0 +1,13 @@
+
+> mad-developers@0.1.0 test:smoke
+> node tests/smoke.mjs
+
+360px: hero, navigation, dialog, core content, area selector passed
+390px: hero, navigation, dialog, core content, area selector passed
+768px: hero, navigation, dialog, core content, area selector passed
+1440px: hero, navigation, dialog, core content, area selector passed
+Reduced-motion fallback: passed
+Catalog filters, mobile layout, empty states and missing listing 404: passed (no live DB)
+Real HTTP: admin guard, unauthorized writes, enquiry validation, CSRF, unconfigured-backend 503 and honeypot passed
+Inquiry UI 201: passed using explicitly mocked HTTP response
+Inquiry UI 429: passed using explicitly mocked HTTP response

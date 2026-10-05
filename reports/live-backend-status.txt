@@ -1,0 +1,5 @@
+
+> mad-developers@0.1.0 test:live
+> node tests/live-backend.mjs
+
+NOT RUN: provide TEST_BASE_URL, TEST_ADMIN_EMAIL, TEST_ADMIN_PASSWORD and TEST_LIVE_CONFIRM=disposable-staging. See DEPLOYMENT.md.

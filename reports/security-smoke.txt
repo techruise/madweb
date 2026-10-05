@@ -1,0 +1,3 @@
+Desktop: passed
+Mobile: passed
+Reduced-motion fallback: passed

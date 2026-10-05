@@ -1,0 +1,263 @@
+CREATE ROLE
+CREATE ROLE
+CREATE ROLE
+CREATE SCHEMA
+CREATE TABLE
+CREATE FUNCTION
+GRANT
+GRANT
+CREATE SCHEMA
+CREATE TABLE
+CREATE TABLE
+ALTER TABLE
+GRANT
+GRANT
+GRANT
+BEGIN
+CREATE EXTENSION
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE FUNCTION
+NOTICE:  trigger "properties_updated" for relation "public.properties" does not exist, skipping
+DROP TRIGGER
+CREATE TRIGGER
+NOTICE:  trigger "projects_updated" for relation "public.projects" does not exist, skipping
+DROP TRIGGER
+CREATE TRIGGER
+COMMIT
+BEGIN
+CREATE FUNCTION
+REVOKE
+GRANT
+DO
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+NOTICE:  policy "profiles_read" for relation "public.profiles" does not exist, skipping
+DROP POLICY
+CREATE POLICY
+NOTICE:  policy "profiles_admin_insert" for relation "public.profiles" does not exist, skipping
+DROP POLICY
+CREATE POLICY
+NOTICE:  policy "profiles_admin_update" for relation "public.profiles" does not exist, skipping
+DROP POLICY
+CREATE POLICY
+NOTICE:  policy "profiles_admin_delete" for relation "public.profiles" does not exist, skipping
+DROP POLICY
+CREATE POLICY
+NOTICE:  policy "public_read" for relation "public.properties" does not exist, skipping
+NOTICE:  policy "public_read" for relation "public.projects" does not exist, skipping
+NOTICE:  policy "public_read" for relation "public.testimonials" does not exist, skipping
+NOTICE:  policy "public_read" for relation "public.faqs" does not exist, skipping
+NOTICE:  policy "staff_read" for relation "public.properties" does not exist, skipping
+NOTICE:  policy "staff_insert" for relation "public.properties" does not exist, skipping
+NOTICE:  policy "staff_update" for relation "public.properties" does not exist, skipping
+NOTICE:  policy "staff_delete" for relation "public.properties" does not exist, skipping
+NOTICE:  policy "staff_read" for relation "public.projects" does not exist, skipping
+NOTICE:  policy "staff_insert" for relation "public.projects" does not exist, skipping
+NOTICE:  policy "staff_update" for relation "public.projects" does not exist, skipping
+NOTICE:  policy "staff_delete" for relation "public.projects" does not exist, skipping
+NOTICE:  policy "staff_read" for relation "public.property_images" does not exist, skipping
+NOTICE:  policy "staff_insert" for relation "public.property_images" does not exist, skipping
+NOTICE:  policy "staff_update" for relation "public.property_images" does not exist, skipping
+NOTICE:  policy "staff_delete" for relation "public.property_images" does not exist, skipping
+NOTICE:  policy "staff_read" for relation "public.project_images" does not exist, skipping
+NOTICE:  policy "staff_insert" for relation "public.project_images" does not exist, skipping
+NOTICE:  policy "staff_update" for relation "public.project_images" does not exist, skipping
+NOTICE:  policy "staff_delete" for relation "public.project_images" does not exist, skipping
+NOTICE:  policy "staff_read" for relation "public.testimonials" does not exist, skipping
+NOTICE:  policy "staff_insert" for relation "public.testimonials" does not exist, skipping
+NOTICE:  policy "staff_update" for relation "public.testimonials" does not exist, skipping
+NOTICE:  policy "staff_delete" for relation "public.testimonials" does not exist, skipping
+NOTICE:  policy "staff_read" for relation "public.faqs" does not exist, skipping
+NOTICE:  policy "staff_insert" for relation "public.faqs" does not exist, skipping
+NOTICE:  policy "staff_update" for relation "public.faqs" does not exist, skipping
+NOTICE:  policy "staff_delete" for relation "public.faqs" does not exist, skipping
+DO
+NOTICE:  policy "published_parent" for relation "public.property_images" does not exist, skipping
+DROP POLICY
+CREATE POLICY
+NOTICE:  policy "published_parent" for relation "public.project_images" does not exist, skipping
+DROP POLICY
+CREATE POLICY
+NOTICE:  policy "inquiries_staff_read" for relation "public.inquiries" does not exist, skipping
+DROP POLICY
+CREATE POLICY
+NOTICE:  policy "inquiries_staff_update" for relation "public.inquiries" does not exist, skipping
+DROP POLICY
+CREATE POLICY
+NOTICE:  policy "inquiries_admin_delete" for relation "public.inquiries" does not exist, skipping
+DROP POLICY
+CREATE POLICY
+CREATE FUNCTION
+REVOKE
+GRANT
+COMMIT
+BEGIN
+INSERT 0 2
+NOTICE:  policy "mad_images_read" for relation "storage.objects" does not exist, skipping
+DROP POLICY
+CREATE POLICY
+NOTICE:  policy "mad_images_insert" for relation "storage.objects" does not exist, skipping
+DROP POLICY
+CREATE POLICY
+NOTICE:  policy "mad_images_update" for relation "storage.objects" does not exist, skipping
+DROP POLICY
+CREATE POLICY
+NOTICE:  policy "mad_images_delete" for relation "storage.objects" does not exist, skipping
+DROP POLICY
+CREATE POLICY
+COMMIT
+INSERT 0 1
+INSERT 0 1
+BEGIN
+NOTICE:  extension "pgcrypto" already exists, skipping
+CREATE EXTENSION
+NOTICE:  relation "profiles" already exists, skipping
+CREATE TABLE
+NOTICE:  relation "properties" already exists, skipping
+CREATE TABLE
+NOTICE:  relation "projects" already exists, skipping
+CREATE TABLE
+NOTICE:  relation "property_images" already exists, skipping
+CREATE TABLE
+NOTICE:  relation "project_images" already exists, skipping
+CREATE TABLE
+NOTICE:  relation "testimonials" already exists, skipping
+CREATE TABLE
+NOTICE:  relation "inquiries" already exists, skipping
+CREATE TABLE
+NOTICE:  relation "faqs" already exists, skipping
+CREATE TABLE
+NOTICE:  relation "inquiry_rate_limits" already exists, skipping
+CREATE TABLE
+NOTICE:  relation "properties_area_idx" already exists, skipping
+CREATE INDEX
+NOTICE:  relation "properties_status_idx" already exists, skipping
+CREATE INDEX
+NOTICE:  relation "properties_created_idx" already exists, skipping
+CREATE INDEX
+NOTICE:  relation "projects_area_idx" already exists, skipping
+CREATE INDEX
+NOTICE:  relation "projects_status_idx" already exists, skipping
+CREATE INDEX
+NOTICE:  relation "projects_created_idx" already exists, skipping
+CREATE INDEX
+NOTICE:  relation "property_images_parent_idx" already exists, skipping
+CREATE INDEX
+NOTICE:  relation "project_images_parent_idx" already exists, skipping
+CREATE INDEX
+NOTICE:  relation "inquiries_status_created_idx" already exists, skipping
+CREATE INDEX
+NOTICE:  relation "inquiries_created_idx" already exists, skipping
+CREATE INDEX
+NOTICE:  relation "testimonials_created_idx" already exists, skipping
+CREATE INDEX
+NOTICE:  relation "rate_window_idx" already exists, skipping
+CREATE INDEX
+CREATE FUNCTION
+DROP TRIGGER
+CREATE TRIGGER
+DROP TRIGGER
+CREATE TRIGGER
+COMMIT
+BEGIN
+CREATE FUNCTION
+REVOKE
+GRANT
+DO
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+DROP POLICY
+CREATE POLICY
+DROP POLICY
+CREATE POLICY
+DROP POLICY
+CREATE POLICY
+DROP POLICY
+CREATE POLICY
+DO
+DROP POLICY
+CREATE POLICY
+DROP POLICY
+CREATE POLICY
+DROP POLICY
+CREATE POLICY
+DROP POLICY
+CREATE POLICY
+DROP POLICY
+CREATE POLICY
+CREATE FUNCTION
+REVOKE
+GRANT
+COMMIT
+BEGIN
+INSERT 0 2
+DROP POLICY
+CREATE POLICY
+DROP POLICY
+CREATE POLICY
+DROP POLICY
+CREATE POLICY
+DROP POLICY
+CREATE POLICY
+COMMIT
+INSERT 0 0
+INSERT 0 0
+BEGIN
+INSERT 0 3
+INSERT 0 2
+INSERT 0 1
+INSERT 0 2
+SET
+DO
+RESET
+SET
+DO
+INSERT 0 1
+RESET
+SET
+              set_config              
+--------------------------------------
+ cccccccc-cccc-4ccc-8ccc-cccccccccccc
+(1 row)
+
+DO
+              set_config              
+--------------------------------------
+ bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb
+(1 row)
+
+DO
+              set_config              
+--------------------------------------
+ aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa
+(1 row)
+
+DO
+ROLLBACK
+PASS: anon isolation, API-only inquiry inserts, staff roles, immutable inquiry fields, storage names, rate limiting, admin delete

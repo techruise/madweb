@@ -1,0 +1,57 @@
+[
+  {
+    "width": 390,
+    "path": "/",
+    "violations": []
+  },
+  {
+    "width": 390,
+    "path": "enquiry dialog",
+    "violations": []
+  },
+  {
+    "width": 390,
+    "path": "/properties",
+    "violations": []
+  },
+  {
+    "width": 390,
+    "path": "/projects",
+    "violations": []
+  },
+  {
+    "width": 390,
+    "path": "/privacy",
+    "violations": []
+  },
+  {
+    "width": 390,
+    "path": "/admin/login",
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "path": "/",
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "path": "/properties",
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "path": "/projects",
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "path": "/privacy",
+    "violations": []
+  },
+  {
+    "width": 1440,
+    "path": "/admin/login",
+    "violations": []
+  }
+]

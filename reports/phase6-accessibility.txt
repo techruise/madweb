@@ -1,0 +1,14 @@
+
+> mad-developers@0.1.0 test:a11y
+> node tests/accessibility.mjs
+
+390 / PASS
+390 /properties PASS
+390 /projects PASS
+390 /privacy PASS
+390 /admin/login PASS
+1440 / PASS
+1440 /properties PASS
+1440 /projects PASS
+1440 /privacy PASS
+1440 /admin/login PASS

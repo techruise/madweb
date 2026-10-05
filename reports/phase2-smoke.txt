@@ -1,0 +1,9 @@
+
+> mad-developers@0.1.0 test:smoke
+> node tests/smoke.mjs
+
+360px: hero, navigation, dialog, core content, area selector passed
+390px: hero, navigation, dialog, core content, area selector passed
+768px: hero, navigation, dialog, core content, area selector passed
+1440px: hero, navigation, dialog, core content, area selector passed
+Reduced-motion fallback: passed

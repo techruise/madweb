@@ -1,0 +1,33 @@
+
+> mad-developers@0.1.0 build
+> next build
+
+▲ Next.js 16.3.8 (Turbopack)
+✓ Running next.config.mjs took 12ms
+
+  Creating an optimized production build ...
+(node:4884) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/user/mad/tailwind.config.ts?id=1791217209143 is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/user/mad/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✓ Compiled successfully in 5.0s
+  Running TypeScript ...
+  Finished TypeScript in 6.2s ...
+  Collecting page data using 1 worker ...
+  Generating static pages using 1 worker (0/3) ...
+✓ Generating static pages using 1 worker (3/3) in 187ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ƒ /
+├ ○ /_not-found
+├ ○ /privacy
+├ ƒ /projects
+├ ƒ /projects/[slug]
+├ ƒ /properties
+└ ƒ /properties/[slug]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

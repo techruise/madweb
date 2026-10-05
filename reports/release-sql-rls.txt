@@ -1,0 +1,33 @@
+BEGIN
+INSERT 0 3
+INSERT 0 2
+INSERT 0 1
+INSERT 0 2
+SET
+DO
+RESET
+SET
+DO
+INSERT 0 1
+RESET
+SET
+              set_config              
+--------------------------------------
+ cccccccc-cccc-4ccc-8ccc-cccccccccccc
+(1 row)
+
+DO
+              set_config              
+--------------------------------------
+ bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb
+(1 row)
+
+DO
+              set_config              
+--------------------------------------
+ aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa
+(1 row)
+
+DO
+ROLLBACK
+PASS: anon isolation, API-only inquiry inserts, staff roles, immutable inquiry fields, storage names, rate limiting, admin delete
