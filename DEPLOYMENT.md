@@ -6,7 +6,7 @@ This repository is implemented and locally tested, but **is not connected to an 
 You need a Git hosting account, a Supabase project and a Vercel project. Check the providers' current terms and usage limits yourself. No paid plan, email account, project or domain has been purchased. Email notifications remain optional and disabled.
 
 ## 1. Open the one project folder
-Everything is under `mad/`. Keep this as your repository root. Install Node **22 LTS** (see `.nvmrc`). In a terminal in this folder:
+Everything is in this repository root: `app/`, `components/`, `config/`, `lib/`, `public/` and `supabase/`. Install Node **22 LTS** (see `.nvmrc`). In a terminal in this folder:
 
 ```sh
 npm ci
@@ -15,7 +15,7 @@ npm run typecheck
 npm run dev
 ```
 
-Open http://localhost:3000. Without backend variables, public pages show empty collections and admin login explains the missing configuration. Keep `.env.local` private. Never upload it to Git. The `archive/` folder preserves original Phase 1 material; it is not another active app.
+Open http://localhost:3000. Without backend variables, public pages show empty collections and admin login explains the missing configuration. Keep `.env.local` private. Never upload it to Git.
 
 ## 2. Create Supabase
 1. Sign in to Supabase and create a project. Choose a suitable nearby region and store the database password securely.
