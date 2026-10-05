@@ -4,8 +4,23 @@ node_modules/
 !.env.example
 *.tsbuildinfo
 
-.cache-old-dependencies/
-
+# Local caches and one-off build artefacts — never commit these.
 .cache/
-
+.cache-old-dependencies/
+*.log
+/audit.json
 /MAD-website.zip
+/MAD-Phase-1.zip
+*-package-lock.json
+pre-upgrade-lock.json
+
+# Stray Git metadata that must never be uploaded as content.
+/HEAD
+/ORIG_HEAD
+/index
+/description
+/COMMIT_EDITMSG
+
+# Screenshots belong in reports/, not the repository root.
+/desktop-check.png
+/mobile-check.png

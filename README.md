@@ -41,7 +41,6 @@ supabase/seed.sql        SAMPLE-only catalog data; no invented testimonials
 supabase/tests/         RLS test and plain-Postgres harness
 public/                 Local fonts, licences and labelled image placeholder
 reports/                Actual command logs, audit, accessibility and Lighthouse output
-archive/                Preserved Phase 1 files and earlier lockfiles
 ```
 
 ## Design/performance decisions
