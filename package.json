@@ -1,0 +1,52 @@
+{
+  "name": "mad-developers",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test:smoke": "node tests/smoke.mjs",
+    "format": "prettier --write app components config lib tests *.ts *.mjs *.json",
+    "test:schemas": "tsx tests/schemas.ts",
+    "test:env": "node --conditions=react-server --import tsx tests/env.ts",
+    "test:a11y": "node tests/accessibility.mjs",
+    "test:live": "node tests/live-backend.mjs"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.1",
+    "@supabase/ssr": "0.12.7",
+    "@supabase/supabase-js": "2.117.2",
+    "framer-motion": "14.0.0",
+    "gsap": "^3.12.7",
+    "lenis": "^1.1.20",
+    "lucide-react": "^0.468.0",
+    "next": "16.3.8",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "^0.0.1",
+    "sharp": "^0.35.5",
+    "three": "^0.170.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^22.10.7",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "^0.170.0",
+    "autoprefixer": "^10.4.20",
+    "lighthouse": "^13.5.0",
+    "postcss": "8.5.29",
+    "prettier": "3.9.9",
+    "tailwindcss": "4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=22 <25"
+  }
+}

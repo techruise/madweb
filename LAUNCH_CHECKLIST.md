@@ -1,0 +1,31 @@
+# Owner launch checklist
+- [ ] Verified office address, map link and Google Maps embed URL (currently null/hidden).
+- [ ] Public email and approved social profile URLs (currently null/empty).
+- [ ] CEO portrait and approved personal message; no quotation is attributed without approval.
+- [ ] Team portraits and verified roles for Mian Junaid, Sohail Chohan and Saad (null roles hidden).
+- [ ] Verified deals closed and experience statistics (currently null, visibly awaiting verification).
+- [ ] Licences, registration details and any membership claims, before publishing such claims.
+- [ ] Actual properties, project facts and licensed photos; replace SAMPLE entries before launch.
+- [ ] Consent and approval for real testimonials; no fabricated testimonials are seeded.
+- [ ] Create Supabase project and provide environment variables; run migrations and seed.
+- [ ] Create first admin, test RLS/storage, configure site domain and auth URLs.
+- [ ] Review privacy/retention policy with the owner and obtain legal advice where needed.
+- [ ] Optional notification email requires owner approval/provider credentials; disabled by default.
+- [ ] Test calls/WhatsApp on a real phone, enquiry persistence and admin workflows against the hosted database.
+
+## Technical launch gates
+- [ ] **Hosted Supabase integration is not yet verified.** Run migrations and the optional staging test in DEPLOYMENT.md; complete manual Auth/session, upload, editor permissions and notification checks.
+- [ ] Set the real canonical HTTPS domain. No localhost URLs in sitemap, metadata, OG or listing WhatsApp links.
+- [ ] Set `REQUIRE_BACKEND=true` and `ALLOW_PREVIEW_EMBED=false` in production. Redeploy after public env changes.
+- [ ] Keep service-role/rate-limit/email secrets server-only. Turn off public Supabase signup.
+- [ ] Verify a nonstaff authenticated user cannot access admin or write content; verify editor cannot delete inquiries or manage users.
+- [ ] Supply approved, licensed CEO/team portraits and set their `site.team[].photo` paths (existing Next/Image slots include alt text); update the approval note and re-test crop/layout.
+- [ ] Remove the visibly pending statistics or replace with verified config values before public launch.
+- [ ] Delete SAMPLE records and media. SAMPLE pages are noindex and omitted from the sitemap, but remain publicly visible if published.
+- [ ] Public Storage URLs are accessible even for draft images. Never upload ID documents, agreements or confidential plans there.
+- [ ] Establish an owner-approved retention period and routine for enquiry deletion. The privacy page requires owner/legal review; it is not legal advice.
+- [ ] Configure backups, recovery, monitoring, enquiry response ownership and a security update schedule.
+- [ ] Check actual mobile-network performance after real photos and DB content are added. The measured local 94 performance score is not a production guarantee.
+- [ ] Optional Urdu needs translated content, Urdu font assets and an RTL layout review; no Urdu toggle is shipped.
+- [ ] On non-Vercel infrastructure, implement a trusted-proxy IP strategy before launch; the default safe shared rate-limit bucket can limit legitimate visitors.
+- [ ] Rotate any secrets accidentally shared outside the approved secret store; never commit them.
